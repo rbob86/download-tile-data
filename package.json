@@ -1,0 +1,15 @@
+{
+    "scripts": {
+        "start": "ts-node src/download-tile-data.ts"
+    },
+    "devDependencies": {
+        "@types/node": "^17.0.23",
+        "dotenv": "^16.0.0",
+        "ts-node": "^10.7.0",
+        "ts-node-dev": "^1.1.8",
+        "typescript": "^4.6.3"
+    },
+    "dependencies": {
+        "@looker/sdk-node": "^22.4.2"
+    }
+}
